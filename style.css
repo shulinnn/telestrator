@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#toolbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 15%;
+  height: 100% !important;
+  gap: 12px;
+}
+
+.drawing-board {
+  display: flex;
+  justify-self: flex-end;
+}
+
+canvas {
+  height: 800px;
+  width: 800px;
+}
+
+button {
+  background: transparent;
+  padding: 0px 32px;
+  color: black;
+  font-size: 22px;
+  border: 2px solid black;
+  cursor: pointer;
+}
